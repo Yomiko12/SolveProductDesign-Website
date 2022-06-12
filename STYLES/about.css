@@ -1,0 +1,35 @@
+.abouttext{
+	margin: 50px 10vw 0px 10vw;
+}
+
+.abouttext h2{
+	font-size: 2rem;
+}
+
+.abouttext p{
+	font-size: 1.2rem;
+}
+
+.blainedescription{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 10vw 0px 10vw;
+	align-items: center;
+	justify-content: center;
+}
+.blainedescription img{
+	width:300px;
+	height: auto;
+}
+.blainedescription h3{
+	font-size: 1.8rem;
+}
+.blainedescription p{
+	font-size: 1.1rem;
+}
+
+@media(max-width: 820px){
+	.blainedescription{
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,13 @@
+.hometext{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 15vw 0px 15vw;
+}
+
+.hometext h2{
+	font-size: 2rem;
+}
+
+.hometext p{
+	font-size: 1.2rem;
+}
